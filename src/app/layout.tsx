@@ -7,7 +7,7 @@ import Navbar from "@components/custom/NavBar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	title: "Hotel Yaala",
+	title: "The Hotel Yaala",
 	description: "Wild Coastal Luxury In The Deep South",
 };
 
