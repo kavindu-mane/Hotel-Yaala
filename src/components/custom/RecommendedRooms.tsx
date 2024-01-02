@@ -55,7 +55,7 @@ const RecommendedRooms = () => {
 		api.on("select", () => {
 			setCurrent(api.selectedScrollSnap() + 1);
 		});
-	}, [api, window.innerWidth]);
+	}, [api]);
 
 	return (
 		<section className="my-16 max-w-7xl space-y-5 items-center flex flex-col">
