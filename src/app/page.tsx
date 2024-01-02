@@ -9,7 +9,7 @@ import RecommendedRooms from "@components/custom/RecommendedRooms";
 
 export default function Home() {
 	return (
-		<main className="flex h-full pb-20 flex-col items-center justify-between">
+		<main className="flex h-full flex-col items-center justify-between">
 			<Parallax />
 			<Booking />
 			<div className="flex flex-col items-center px-3">
