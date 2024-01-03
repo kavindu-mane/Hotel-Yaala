@@ -70,7 +70,7 @@ const Parallax = () => {
 	return (
 		<section
 			ref={ref}
-			className="w-full h-screen pointer-events-none -z-10 bg-[#34a591] after:absolute after:inset-0 after:bg-slate-950/40">
+			className="w-full relative h-screen pointer-events-none -z-10 bg-[#34a591] after:absolute after:inset-0 after:bg-slate-950/40">
 			{[8, 6, 4, 2, 0].map((speed, key) => {
 				return (
 					<Image
@@ -102,7 +102,9 @@ const Parallax = () => {
 						{text} !
 					</text>
 				</svg>
-				<p className="text-white font-medium md:text-lg xl:text-xl">Wild Coastal Luxury In The Deep South</p>
+				<p className="text-white font-medium md:text-lg xl:text-xl">
+					Wild Coastal Luxury In The Deep South
+				</p>
 			</div>
 		</section>
 	);

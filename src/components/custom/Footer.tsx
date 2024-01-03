@@ -1,3 +1,4 @@
+"use client";
 import { Facebook, Instagram, Linkedin, X } from "lucide-react";
 import React from "react";
 
@@ -7,7 +8,7 @@ const Footer = () => {
 			<h2 className="text-2xl text-center font-medium min-w-64 text-emerald-500">
 				The Hotel Yaala
 			</h2>
-			<div className="flex space-x-16 xl:px-20 justify-around w-full md:flex-row flex-col mt-8 space-y-6 md:space-y-0 items-center">
+			<div className="flex xl:px-20 justify-around w-full md:flex-row flex-col mt-8 space-y-6 md:space-y-0 items-center">
 				<div className="text-sm text-center">
 					<p className="uppercase font-medium mb-5">Address</p>
 					<p className="dark:text-gray-400 text-gray-700">The Hotel Yaala,</p>

@@ -78,7 +78,7 @@ const Navbar = () => {
 							{/* location */}
 							<NavigationMenuItem>
 								<Link
-									href="/location"
+									href="/"
 									legacyBehavior
 									passHref>
 									<NavigationMenuLink
@@ -132,7 +132,7 @@ const Navbar = () => {
 							{/* offers */}
 							<NavigationMenuItem>
 								<Link
-									href="/offers"
+									href="/"
 									legacyBehavior
 									passHref>
 									<NavigationMenuLink
@@ -144,7 +144,7 @@ const Navbar = () => {
 							{/* gallery */}
 							<NavigationMenuItem>
 								<Link
-									href="/gallery"
+									href="/"
 									legacyBehavior
 									passHref>
 									<NavigationMenuLink

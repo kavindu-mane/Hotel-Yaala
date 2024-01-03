@@ -58,8 +58,8 @@ const RecommendedRooms = () => {
 	}, [api]);
 
 	return (
-		<section className="my-16 max-w-7xl space-y-5 items-center flex flex-col">
-			<h2 className="text-xl mb-5 font-medium text-center lg:text-2xl">
+		<section className="mb-16 max-w-7xl space-y-5 items-center flex flex-col">
+			<h2 className="text-xl mb-5 flex flex-col sm:flex-col gap-y-1 sm:gap-y-0 font-medium text-center lg:text-2xl">
 				Recommended Rooms
 				<span className="relative px-3 ms-2 text-white py-1 after:-z-10 after:-skew-x-12 after:absolute after:inset-0 after:bg-emerald-500">
 					For You

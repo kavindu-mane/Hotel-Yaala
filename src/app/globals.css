@@ -51,7 +51,7 @@
 
 @layer base {
 	body {
-		@apply no_scrollbar overflow-x-hidden bg-white text-black dark:bg-slate-950 dark:text-white;
+		@apply no_scrollbar overflow-x-hidden text-black dark:bg-slate-950 dark:text-white;
 	}
 
 	:root {

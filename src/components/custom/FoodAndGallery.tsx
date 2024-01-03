@@ -6,10 +6,10 @@ import React from "react";
 const FoodAndGallery = () => {
 	return (
 		<section
-			className="text-center -my-[15vh] w-screen min-h-screen h-full flex flex-col justify-between bg-cover bg-center bg-fixed px-3"
+			className="text-center -my-[15vh] w-screen h-screen min-h-[35rem] flex flex-col justify-between bg-cover bg-center bg-fixed px-3"
 			style={{ backgroundImage: "url(/assets/food-gallery.jpg)" }}>
 			<div className="h-[25vh] -mx-3 bg-white dark:bg-slate-950 w-screen"></div>
-			<div className="flex space-y-8 lg:space-x-10 px-2 lg:space-y-32 lg:flex-row flex-col -mx-3 bg-slate-950/50 h-[50vh] justify-center items-center">
+			<div className="flex min-h-[25rem] space-y-8 lg:space-x-10 px-2 lg:space-y-32 lg:flex-row flex-col -mx-3 bg-slate-950/50 h-[50vh] justify-center items-center">
 				<div className="bg-white dark:bg-slate-900 border border-border w-fit p-6 space-y-6 rounded-sm">
 					<p className="text-xl font-medium">
 						Memorable Settings for
