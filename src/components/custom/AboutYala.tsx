@@ -15,7 +15,8 @@ const AboutYala = () => {
 					alt="lk image"
 					width={0}
 					height={0}
-					sizes={"100vw"}
+					sizes={"100"}
+					unoptimized
 					className="w-full dark:invert h-full max-w-[400px] max-h-[500px]"
 				/>
 			</div>

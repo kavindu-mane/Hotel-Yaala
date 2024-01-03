@@ -19,6 +19,7 @@ const Offers = () => {
 					width={0}
 					height={0}
 					sizes="100"
+					unoptimized
 					className="w-screen h-[30rem] object-cover md:rounded-r-full rounded-md"
 				/>
 				<div className="absolute bottom-0 p-5 bg-gradient-to-b w-full max-w-lg dark:from-slate-950/40 dark:to-slate-950/95 from-white/20 to-white/80 md:start-0 md:top-0 md:flex md:flex-col md:justify-center md:w-1/2">
