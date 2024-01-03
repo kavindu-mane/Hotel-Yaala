@@ -17,7 +17,7 @@ const Experiance = () => {
 			</h2>
 			<div className="indent-10">
 				From roaming the exciting habitats of Yala National Park with our resident naturalist, to
-				stepping back in time at the ancient sites of Kataragama and Sithulpauwa, Jetwing Yala
+				stepping back in time at the ancient sites of Kataragama and Sithulpauwa, Hotel Yaala
 				offers a world of unique Sri Lankan experiences of history, nature and everything in
 				between, just waiting to be discovered.
 			</div>
