@@ -81,18 +81,18 @@ const RecommendedRooms = () => {
 					{roomDetails.map((data, index) => (
 						<CarouselItem
 							key={index}
-							className="xl:basis-1/2 relative flex justify-center">
+							className="xl:basis-1/2 min-h-[25rem] relative flex justify-center">
 							<figure className="overflow-hidden rounded-md relative child:hover:scale-100">
 								<img
 									src={`/assets/${data?.img}`}
 									height={0}
 									width={0}
 									sizes="100"
-									className="w-full h-full scale-[1.15] duration-200 cursor-pointer"
+									className="w-full h-full object-cover scale-[1.15] duration-200 cursor-pointer"
 									alt="room"
 								/>
 
-								<figcaption className="absolute group flex flex-col justify-between child:opacity-0 child:hover:opacity-100 inset-0 z-[1] after:absolute after:inset-0 after:opacity-0 after:hover:opacity-100 after:duration-300 after:bg-gradient-to-b after:from-slate-950/30 after:to-slate-950 after:z-[-1] px-5">
+								<figcaption className="absolute py-10 sm:py-0 group flex flex-col justify-between sm:child:opacity-0 sm:child:hover:opacity-100 inset-0 z-[1] after:absolute after:inset-0 sm:after:opacity-0 sm:after:hover:opacity-100 after:duration-300 after:bg-gradient-to-b after:from-slate-950/30 after:to-slate-950 after:z-[-1] px-5">
 									<main className="duration-300 group-hover:translate-y-10 text-white">
 										<p className="text-3xl font-medium">{data?.title}</p>
 										<p className="mt-5">{data?.description}</p>
@@ -103,7 +103,7 @@ const RecommendedRooms = () => {
 											{data?.details.map((detail, index) => {
 												return (
 													<p
-														className="flex flex-col items-center justify-center text-white text-sm"
+														className="sm:flex hidden flex-col items-center justify-center text-white text-sm"
 														key={index}>
 														<span className="">
 															{index === 0 ? <Users /> : index === 1 ? <Tent /> : <Home />}
@@ -113,7 +113,7 @@ const RecommendedRooms = () => {
 												);
 											})}
 											<Button
-												className={`${raleway.className} group-hover:scale-100 duration-300 transition delay-200 scale-0 child:hover:translate-x-2 rounded-none max-w-80 bg-emerald-500 hover:bg-emerald-600 text-white font-semibold`}>
+												className={`${raleway.className} sm:group-hover:scale-100 duration-300 transition delay-200 sm:scale-0 child:hover:translate-x-2 rounded-none max-w-80 bg-emerald-500 hover:bg-emerald-600 text-white font-semibold`}>
 												More Details
 												<span className="duration-300">
 													<ArrowRight />
